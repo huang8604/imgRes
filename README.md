@@ -1,1 +1,1 @@
-# imgRes
+# image resource

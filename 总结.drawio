@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="rMS4FFa8bnM-4XpJGUWj">
-    <mxGraphModel dx="2680" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3706" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,14 +114,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OIK8ZdltA_swvoKBvkA3-49" value="ActvityThread" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1070" y="1220" width="160" height="40" as="geometry" />
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-49" value="ActvityThread" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="1220" width="270" height="430" as="geometry" />
         </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-50" target="OIK8ZdltA_swvoKBvkA3-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-50" value="ApplictionThread" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1070" y="1130" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1055" y="1130" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;curved=1;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-23" target="OIK8ZdltA_swvoKBvkA3-50">
           <mxGeometry relative="1" as="geometry" />

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="rMS4FFa8bnM-4XpJGUWj">
-    <mxGraphModel dx="1026" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,20 +72,57 @@
         <mxCell id="OIK8ZdltA_swvoKBvkA3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-18" target="OIK8ZdltA_swvoKBvkA3-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OIK8ZdltA_swvoKBvkA3-18" value="SystemServer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="270" y="730" width="120" height="60" as="geometry" />
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-18" value="SystemServer&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. SystemReady 之后，会启动home activity&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 在add windowmanger的时候，会有root Win do wContainer的初始化，会初始化窗口层级树&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. startHomeApp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="730" width="440" height="160" as="geometry" />
         </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-19" value="ServerManager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="60" y="730" width="150" height="60" as="geometry" />
+          <mxGeometry x="445" y="640" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OIK8ZdltA_swvoKBvkA3-23" value="AMS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="90" y="930" width="120" height="60" as="geometry" />
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-23" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AMS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&amp;nbsp; AMS bindAppliction&amp;nbsp; (Install provider)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;8.&amp;nbsp; makeActivie&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;9. 添加进入&lt;span style=&quot;background-color: initial;&quot;&gt;ProcessList&amp;nbsp; （&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ProcessRecord？&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1080" width="420" height="660" as="geometry" />
         </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-24" value="WMS" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="270" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-27" value="PMS" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="450" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;curved=1;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-33" target="OIK8ZdltA_swvoKBvkA3-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-46" value="6. Attch Appliction&lt;div&gt;&lt;div&gt;给AMS 提供 Application Thread(Ibinder 对象)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="OIK8ZdltA_swvoKBvkA3-45">
+          <mxGeometry x="-0.1934" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-33" value="APP" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-18" target="OIK8ZdltA_swvoKBvkA3-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="850" as="sourcePoint" />
+            <mxPoint x="90" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="850" />
+              <mxPoint x="40" y="800" />
+              <mxPoint x="140" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-42" value="4. 通过 Socket 通知zygote fork 进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="OIK8ZdltA_swvoKBvkA3-41">
+          <mxGeometry x="0.0023" y="2" relative="1" as="geometry">
+            <mxPoint x="23" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.558;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=18;fontColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-9" target="OIK8ZdltA_swvoKBvkA3-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-44" value="5.&amp;nbsp; 创建进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="OIK8ZdltA_swvoKBvkA3-43">
+          <mxGeometry x="-0.1448" y="79" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

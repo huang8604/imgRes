@@ -26,6 +26,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;entryPerimeter=0;" edge="1" parent="1" target="OIK8ZdltA_swvoKBvkA3-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="430" as="sourcePoint" />
+            <mxPoint x="100" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OIK8ZdltA_swvoKBvkA3-7" value="Init&amp;nbsp; pid=1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="270" y="400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -45,6 +51,29 @@
             <mxPoint x="460" y="620" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-16" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OIK8ZdltA_swvoKBvkA3-9" target="OIK8ZdltA_swvoKBvkA3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="740" as="sourcePoint" />
+            <mxPoint x="330" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-17" value="fork" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" connectable="0" vertex="1" parent="OIK8ZdltA_swvoKBvkA3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-18" value="SystemServer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-19" value="ServerManager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-23" value="AMS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIK8ZdltA_swvoKBvkA3-24" value="WMS" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
